@@ -127,6 +127,40 @@ Light:
     type: 3}
   m_PrefabInstance: {fileID: 3529925199633845286}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1785055871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3599010517772771315, guid: 45029906493fdff4fa8b02fcdd77597e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3599010517069878668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1785055872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785055871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 766c8ab9fa19cec40acacd8bfb013786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &1785055873
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785055871}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &3529925199633845286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -137,7 +171,7 @@ PrefabInstance:
     - target: {fileID: 3529925200272244413, guid: 6aca887b7d361b74ca990603a1094821,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3529925200272244413, guid: 6aca887b7d361b74ca990603a1094821,
         type: 3}
@@ -206,7 +240,7 @@ PrefabInstance:
     - target: {fileID: 3599010517772771084, guid: 45029906493fdff4fa8b02fcdd77597e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3599010517772771084, guid: 45029906493fdff4fa8b02fcdd77597e,
         type: 3}
@@ -216,7 +250,7 @@ PrefabInstance:
     - target: {fileID: 3599010517772771084, guid: 45029906493fdff4fa8b02fcdd77597e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.62
+      value: 2.71
       objectReference: {fileID: 0}
     - target: {fileID: 3599010517772771084, guid: 45029906493fdff4fa8b02fcdd77597e,
         type: 3}
@@ -344,7 +378,7 @@ PrefabInstance:
     - target: {fileID: 7405826807815869379, guid: 6282ca3e3334ee946aa5b835bdb3fd1e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7405826807815869379, guid: 6282ca3e3334ee946aa5b835bdb3fd1e,
         type: 3}
@@ -413,7 +447,7 @@ PrefabInstance:
     - target: {fileID: 8130940993610173675, guid: 3f508623c69aa5342a54519d3592ccf3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8130940993610173675, guid: 3f508623c69aa5342a54519d3592ccf3,
         type: 3}
